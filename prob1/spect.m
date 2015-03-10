@@ -4,7 +4,7 @@ winsize=256;
 shift=20;
 c=1;
 clear L;
-h = .54 - .46*cos(2*pi*(0:256-1)'/(256-1));
+h = hamming(256);
 
 for i=1:shift:length(x)-winsize
      X=fft(x(i:i+winsize-1).*h,winsize);
