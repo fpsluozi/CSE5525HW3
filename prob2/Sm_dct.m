@@ -6,7 +6,7 @@ S = zeros(M, 1);
 
 X = real(Xk).^2 + imag(Xk).^2;
 for m = 1:M
-    S(m, 1) = sum(log(X' .* Hmk(m, :)));
+    S(m, 1) = log( sum(Hmk(m, :).* X'));
 end
 
 c = dct(S);
