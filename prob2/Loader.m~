@@ -21,5 +21,3 @@ m = 30;
 fm = Function_m(m);
 hmk = Hmk(fm, k);
 cn = Sm_dct(xk, hmk);
-plot(cn);
-
