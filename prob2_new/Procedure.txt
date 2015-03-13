@@ -1,4 +1,0 @@
-1. 把课上最后的数据 再fft一遍 得到 X[k]
-2. 调用function_m 生成 f[m]
-3. 调用Hmk 生成 hw[k] 矩阵
-4. 调用 Sm_dct 生成最后的c[n] 数组
