@@ -1,6 +1,5 @@
 function [ H ] = Hmk( fm, K )
-%UNTITLED4 Summary of this function goes here
-%   Detailed explanation goes here
+% Implementation of Hm[k] using Equation 6.141
 
 M = size(fm, 1) - 2;
 H = zeros(M, K);

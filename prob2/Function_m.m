@@ -1,9 +1,8 @@
 function [ fm ] = Function_m( M )
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+% Function f[m]
 
 fl = 0;
-fh = 16000;
+fh = 4000;
 N = 400;
 Fs = 16000;
 fm = zeros(M+2, 1);

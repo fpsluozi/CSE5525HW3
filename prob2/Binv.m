@@ -1,6 +1,5 @@
 function [ y ] = Binv( b )
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+% Function B_inv(b)
 
 y = 700 * (exp(b/1125) - 1);
 

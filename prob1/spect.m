@@ -1,3 +1,4 @@
+% Reused from closed lab in class.
 function L=spect(x)
 
 winsize=256;

@@ -1,12 +1,10 @@
 function result=ehfilter(L)
-    avg = 61.0; 
-    len = 48.0; 
-    diag = 13;
-    % We are taking a diagonal section with a diagonal shift of 13 from row
-    % 8 to row 10
+    avg = 61.5;
+    len = 50.0;
+    diag = 16;
 
-    L2 = L(8,1:length(L)-diag*2) + L(9,diag+1:length(L)-diag) + L(10,diag*2+1:length(L));
-    L2 = L2 ./ 3;
+    L2 = L(8,1:length(L)-diag) + L(9,diag+1:length(L)-diag) + L(10,diag+1:length(L));
+    L2 = L2 ./ 2;
     L2 = L2 - avg;
 
     i2 = max(size(L2))-len;
