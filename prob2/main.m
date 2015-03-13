@@ -1,3 +1,5 @@
+% A basic MFCC implementation
+
 train_path = ['../digits/1a.wav'; '../digits/2a.wav'; '../digits/3a.wav'; ...
     '../digits/4a.wav'; '../digits/5a.wav'; '../digits/6a.wav'; ...
     '../digits/7a.wav'; '../digits/8a.wav'; '../digits/9a.wav'; ...
@@ -27,8 +29,7 @@ for i=1:11
     end
     temp_min(i,1) = min_index;
 end
-% c_train_1 = Loader(train_path1);
 
-
-% dtw(c_test_1,c_train_1)
+'Outputting the best matches, 10 for oh and 11 for zero'
+temp_min
 
