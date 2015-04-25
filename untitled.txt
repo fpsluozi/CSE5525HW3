@@ -11,7 +11,7 @@ composition
 
 Lexicon
 
-All the EMs X 
+All the EMs + vector
 
 All - parsing
 
@@ -21,11 +21,11 @@ False
 
 The longest
 
-All - most likely path
+soft trans and soft training
 
 Discounting 
 
-Weight
+Backoff 
 
 Morphology
 
@@ -33,14 +33,14 @@ word|tag tag|tag
 
 True
 
-Cepstrum
+Lattice
 
 Z/N recall Z/M precision
 
-All - fertility 
+two with aligns
 
 measures overlap
 
 IOB
 
-joint
+joint & discrim
