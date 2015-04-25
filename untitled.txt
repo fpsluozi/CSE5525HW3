@@ -1,0 +1,46 @@
+
+using an analog signal processor to extract the /eh/ sound in Rex, releasing an electromagnet
+
+can be used to imitate the processing done by the cochlea
+
+labial
+
+1 labial 2 dental 3 alveolar 4 palatal 5 velar 6 glottal
+
+composition
+
+Lexicon
+
+All the EMs X 
+
+All - parsing
+
+78
+
+False
+
+The longest
+
+All - most likely path
+
+Discounting 
+
+Weight
+
+Morphology
+
+word|tag tag|tag
+
+True
+
+Cepstrum
+
+Z/N recall Z/M precision
+
+All - fertility 
+
+measures overlap
+
+IOB
+
+joint
